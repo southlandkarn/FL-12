@@ -1,0 +1,221 @@
+body {
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.header {
+  background: url("../img/m-h-day.jpg") no-repeat;
+  background-position-y: 55%;
+  background-size: cover;
+  height: 500px;
+  border-bottom-right-radius: 580px 280px;
+}
+
+.landing-logo {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 15px;
+}
+.landing-logo p {
+  font-weight: bold;
+  margin-top: 1px;
+  padding: 0px 10px;
+  font-size: 17px;
+  letter-spacing: 0.01em;
+}
+.landing-logo img {
+  color: white;
+}
+
+span {
+  display: block;
+  font-size: 10px;
+  font-family: "Hind", sans-serif;
+}
+
+.header_heading {
+  font-family: 'Hind', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  width: 280px;
+  height: 90px;
+  word-wrap: break-word;
+  padding-left: 120px;
+  color: #2c2f3c;
+}
+
+.header_heading::after {
+  content: "awesome";
+  background-color: cornflowerblue;
+  position: relative;
+  top: -65px;
+}
+
+.header_text {
+  font-family: "Fresca", sans-serif;
+  font-size: 11px;
+  color: #2c2f3c;
+  font-weight: 200;
+  width: 500px;
+  margin-left: 115px;
+  white-space: pre-line;
+  margin-top: 0px;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  background-color: #690;
+  border-color: transparent;
+  border-radius: 3px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin: auto;
+  margin-left: 95px;
+}
+
+.login {
+  font-family: 'Hind', sans-serif;
+  font-size: 14px;
+  margin-left: 120px;
+  color: #ffffff;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section .section_text {
+  position: relative;
+  margin: 35px 0 25px 0;
+  color: #2c2f3c;
+  font-size: 42px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  letter-spacing: -1px;
+  z-index: 2;
+}
+.section .section_text:before {
+  content: '';
+  position: absolute;
+  width: 175px;
+  height: 50px;
+  left: 208px;
+  bottom: 5px;
+  background-color: cornflowerblue;
+  z-index: -1;
+}
+
+.section_card_wrap .section_card {
+  display: flex;
+  font-family: white;
+  flex-direction: row;
+  background-color: #21232e;
+  margin: 10px 30px 10px 30px;
+  width: 1000px;
+  height: 200px;
+  border-radius: 6px;
+  padding: 8px;
+}
+.section_card_wrap .section_card_right_container {
+  padding: 0px 90px 50px 60px;
+  line-height: 1em;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.section_card_wrap .section_card_right_container .section_card_heading {
+  color: white;
+  font-size: 22px;
+}
+.section_card_wrap .section_card_right_container .section_card_text {
+  font-family: "Fresca", sans-serif;
+  color: #ccc;
+  text-align: left;
+}
+.section_card_wrap .section_card_right_container .section_card_img {
+  margin: 10px;
+  width: 110%;
+  border-radius: 6px;
+}
+.section_card_wrap .section_card_right_container .section_link {
+  margin-top: 20px;
+  color: #c0c3ce;
+}
+
+.section_banner {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+  bottom: -70px;
+  margin-top: 70px;
+  background: linear-gradient(to right, #690, #36c);
+  border-radius: 5px;
+  width: 1100px;
+  height: 140px;
+  z-index: 1;
+}
+.section_banner .section_banner_text_wrap {
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+  line-height: 2px;
+  margin: auto;
+}
+.section_banner .section_banner_text_wrap .section_banner_heading {
+  font-family: "Source Sans Pro", sans-serif;
+  color: color_text;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+.section_banner .section_banner_text_wrap .section_banner_heading::after {
+  content: '';
+  width: 53px;
+  height: 40px;
+  background-color: cornflowerblue;
+  position: absolute;
+  left: 100px;
+  bottom: 10px;
+  top: 0px;
+  z-index: -1;
+  margin-top: -22px;
+}
+.section_banner .section_banner_text {
+  color: #ccc;
+  font-family: "Fresca", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 6px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: #21232e;
+  font-size: 11px;
+  padding-bottom: 20px;
+}
+.footer .footer-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 85px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+}
+.footer .footer-wrap .footer_logo, .footer .footer-wrap .footer_text {
+  color: white;
+}
+.footer .footer-wrap .footer_text {
+  width: 300px;
+  font-family: "Fresca", sans-serif;
+  margin-left: 0px;
+}
+
+/*# sourceMappingURL=style1.css.map */
